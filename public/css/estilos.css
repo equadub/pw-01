@@ -2,14 +2,43 @@
 
 body {
     font-family: 'Lato', sans-serif;
+	background-color: aliceblue;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
+h1 {
+	text-align: center;
+}
+
 .portada {
-    background-image: url('../images/flag.jpeg');
+    background-image: url('../images/fondo.jpg');
     margin-top: 24px;
     color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #007bff;
+}
+
+.card {
+    padding: 0;
+    margin: 0;
+}
+
+.twoColumns{
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+	padding-bottom: 4%;
 }
